@@ -1,0 +1,9 @@
+footer {
+  height: 50px;
+  margin-top: 2rem;
+  background: #fff;
+}
+
+footer > p {
+  text-align: center;
+}
