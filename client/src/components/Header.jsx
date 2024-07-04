@@ -15,8 +15,6 @@ function Header() {
       document.querySelector("#vu-menu").style.display = "none";
       setMenuBurger("images/menu-burger.png");
     }
-    // document.querySelector("#menu-burger").innerHTML =
-    // `<img src=${menuBurger} alt="ouverture du menu">`;
   };
   return (
     <header className="nav-bar">
@@ -28,25 +26,29 @@ function Header() {
           <li>
             <a href="./">acceuil</a>
           </li>
+
           <li>
-            <NavLink to="page-generique.html">lien 1</NavLink>
+            <NavLink to="egalite-des-chances">Égalité des chances</NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 2</NavLink>
+            <NavLink to="accessibilite-au-travail">
+              Accessibilité au travail
+            </NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 3</NavLink>
+            <NavLink to="formation-et-sensibilisation">
+              Formation et Sensibilisation
+            </NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 4</NavLink>
+            <NavLink to="soutien-et-ressources">Soutien et Ressources</NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 5</NavLink>
+            <NavLink to="handicap?id=0">handicap 1</NavLink>
           </li>
         </ul>
         <figure id="menu-burger">
           <button type="button" onClick={openMenu}>
-            {" "}
             <img src={menuBurger} alt="ouverture du menu" />
           </button>
         </figure>
