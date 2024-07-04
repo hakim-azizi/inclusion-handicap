@@ -32,16 +32,16 @@ function Header() {
             <NavLink to="page-generique.html">lien 1</NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 1</NavLink>
+            <NavLink to="page-generique.html">lien 2</NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 1</NavLink>
+            <NavLink to="page-generique.html">lien 3</NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 1</NavLink>
+            <NavLink to="page-generique.html">lien 4</NavLink>
           </li>
           <li>
-            <NavLink to="page-generique.html">lien 1</NavLink>
+            <NavLink to="page-generique.html">lien 5</NavLink>
           </li>
         </ul>
         <figure id="menu-burger">
